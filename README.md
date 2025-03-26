@@ -1,4 +1,12 @@
-## 🚀 Challenge: List All Active Promotions  
+## 🚀 Master SQL with Our Course!  
+Want to level up your SQL skills? Our **SQL Fundamentals Course** covers everything from basics to advanced queries.  
+
+🔥 **Join the Udemy Course today and start learning!**  
+📌 [Click here to enroll now!](https://www.udemy.com/course/sql-fundamentals-postgresql/?referralCode=3ADAD1B84D5002E61B22)  
+
+---
+
+# 🚀 Challenge: List All Active Promotions  
 
 ## 📚 Introduction  
 You work for an **e-commerce platform** that runs various promotional events. Each promotion has a **start date** and an **end date**, and your task is to **list all active promotions**—those where the **current date is within the valid promotion period**.  
@@ -40,12 +48,7 @@ You can view the database ERD here:
 ---
 
 ## 🤔 Try It Yourself  
-Write a query to return only the **active promotions**, using:  
-```sql
-SELECT * FROM promotion_events
-WHERE NOW() BETWEEN start_date AND end_date
-ORDER BY start_date;
-```
+Write a query to return only the **active promotions**.
 
 ---
 
@@ -58,4 +61,7 @@ Watch the first Challenge if you need more help getting the code started.
 🔗 [Link to first Challenge 001](https://github.com/veryacademy/SQL-Challenge-0001-Scenario-A)  
 
 ---
+
+## 📌 Don't Forget  
+You only need to set up the database once for all challenges in Scenario A (see challenge name). Each scenario uses slightly different data, tailored to match the specific challenge requirements.
 
